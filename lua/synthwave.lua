@@ -12,13 +12,13 @@ local z = {
   bg = "NONE",
   bg1 = "#504945",
   bg_popup = "#3E4556",
-  bg_highlight = "#2E323C",
+  bg_highlight = "#450051",
   bg_visual = "#b3deef",
 
   fg = "#f2f2e3",
   fg_alt = "#5B6268",
 
-  red = "#ec7279",
+  red = "#c93443",
 
   redwine = "#d16d9e",
   orange = "#da8548",
@@ -28,8 +28,8 @@ local z = {
   green = "#06f50f",
   dark_green = "#42ba56",
 
-  cyan = "#00b0b1",
-  blue = "#6e29ad",
+  cyan = "#00e3ef",
+  blue = "#d500fb",
   violet = "#a9a1e1",
   magenta = "#b300ad",
   teal = "#1abc9c",
