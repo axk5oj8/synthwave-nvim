@@ -146,7 +146,7 @@ local syntax = {
   Macro = { fg = z.cyan },
   Identifier = { fg = z.blue },
 
-  Comment = { fg = z.base6 },
+  Comment = { fg = z.base6, italic = true },
   SpecialComment = { fg = z.grey },
   Todo = { fg = z.violet },
   Delimiter = { fg = z.fg },
@@ -160,11 +160,11 @@ local syntax = {
 }
 
 local plugin_syntax = {
-  TSFunction = { fg = z.cyan },
-  TSMethod = { fg = z.cyan },
-  TSKeywordFunction = { fg = z.red },
+  TSFunction = { fg = z.cyan, italic = true },
+  TSMethod = { fg = z.cyan, italic = true },
+  TSKeywordFunction = { fg = z.red, italic = true },
   TSProperty = { fg = z.yellow },
-  TSType = { fg = z.teal },
+  TSType = { fg = z.teal, italic = true },
   TSVariable = { fg = "#bfbfbf" },
 
   vimCommentTitle = { fg = z.grey, bold = true },
@@ -323,5 +323,40 @@ function z.colorscheme()
 end
 
 z.colorscheme()
+
+function z.theme()
+  return {
+    inactive = {
+      a = { bg = z.none, gui = "bold" },
+      b = { bg = z.none },
+      c = { bg = z.none },
+    },
+    visual = {
+      a = { bg = z.none, gui = "bold" },
+      b = { bg = z.none },
+      c = { bg = z.none },
+    },
+    replace = {
+      a = { bg = z.none, gui = "bold" },
+      b = { bg = z.none },
+      c = { bg = z.none },
+    },
+    normal = {
+      a = { bg = z.none, gui = "bold" },
+      b = { bg = z.none },
+      c = { bg = z.none },
+    },
+    insert = {
+      a = { bg = z.none, gui = "bold" },
+      b = { bg = z.none },
+      c = { bg = z.none },
+    },
+    command = {
+      a = { bg = z.none, gui = "bold" },
+      b = { bg = z.none },
+      c = { bg = z.none },
+    },
+  }
+end
 
 return z
