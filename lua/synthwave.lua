@@ -164,7 +164,7 @@ local plugin_syntax = {
   TSMethod = { fg = z.cyan, italic = true },
   TSKeywordFunction = { fg = z.red, italic = true },
   TSProperty = { fg = z.yellow },
-  TSType = { fg = z.teal, italic = true },
+  TSType = { fg = z.teal },
   TSVariable = { fg = "#bfbfbf" },
 
   vimCommentTitle = { fg = z.grey, bold = true },
@@ -323,40 +323,5 @@ function z.colorscheme()
 end
 
 z.colorscheme()
-
-function z.theme()
-  return {
-    inactive = {
-      a = { bg = z.none, gui = "bold" },
-      b = { bg = z.none },
-      c = { bg = z.none },
-    },
-    visual = {
-      a = { bg = z.none, gui = "bold" },
-      b = { bg = z.none },
-      c = { bg = z.none },
-    },
-    replace = {
-      a = { bg = z.none, gui = "bold" },
-      b = { bg = z.none },
-      c = { bg = z.none },
-    },
-    normal = {
-      a = { bg = z.none, gui = "bold" },
-      b = { bg = z.none },
-      c = { bg = z.none },
-    },
-    insert = {
-      a = { bg = z.none, gui = "bold" },
-      b = { bg = z.none },
-      c = { bg = z.none },
-    },
-    command = {
-      a = { bg = z.none, gui = "bold" },
-      b = { bg = z.none },
-      c = { bg = z.none },
-    },
-  }
-end
 
 return z
