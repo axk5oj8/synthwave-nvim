@@ -28,8 +28,8 @@ local z = {
   green = "#06f50f",
   dark_green = "#42ba56",
 
-  cyan = "#00e3ef",
-  blue = "#d500fb",
+  cyan = "#d500fb",
+  blue = "#00e3ef",
   violet = "#a9a1e1",
   magenta = "#b300ad",
   teal = "#1abc9c",
