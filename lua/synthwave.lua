@@ -24,9 +24,9 @@ local z = {
   orange = "#da8548",
   yellow = "#ecbe7b",
 
-  light_green = "#0ae4a4",
-  green = "#a0c980",
-  dark_green = "#98be65",
+  light_green = "#91f463",
+  green = "#06f50f",
+  dark_green = "#42ba56",
 
   cyan = "#00b0b1",
   blue = "#6e29ad",
@@ -316,7 +316,7 @@ function z.colorscheme()
   end
   vim.o.background = "dark"
   vim.o.termguicolors = true
-  vim.g.colors_name = "zephyr"
+  vim.g.colors_name = "synthwave"
   set_hl(syntax)
   async_load_plugin:send()
 end
