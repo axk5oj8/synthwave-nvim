@@ -18,7 +18,7 @@ local z = {
   fg = "#f2f2e3",
   fg_alt = "#5B6268",
 
-  red = "#c93443",
+  red = "#c12a3a",
 
   redwine = "#d16d9e",
   orange = "#da8548",
@@ -257,6 +257,7 @@ local plugin_syntax = {
   NvimTreeRootFolder = { fg = z.red, bold = true },
   NvimTreeSpecialFile = { fg = z.fg, bg = z.none },
   NvimTreeGitDirty = { fg = z.redwine },
+  NvimTreeCursorLine = { bg = z.bg_highlight },
 
   TelescopeBorder = { fg = z.teal },
   TelescopePromptBorder = { fg = z.blue },
